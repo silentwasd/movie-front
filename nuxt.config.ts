@@ -9,9 +9,5 @@ export default defineNuxtConfig({
         public: {
             assetUrl: process.env.NUXT_ASSET_URL
         }
-    },
-
-    devServer: {
-        host: '0.0.0.0'
     }
 })
